@@ -1,5 +1,5 @@
 
-showbytes:	show_bytes.c
+overflow: overflow.c
 	gcc -g -o build/$@ $<
 
 clean:
